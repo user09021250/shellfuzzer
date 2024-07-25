@@ -1,7 +1,7 @@
 # ShellFuzzer v0.01. Prototype implementation
 
 # How to use
-========================================================================
+=====================================
 
 * Compile the shell interpreter
 
