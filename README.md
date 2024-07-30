@@ -15,14 +15,14 @@
 
 * Configure the software depending on specific needs and available system resources
 	* Choose and configure the testing phase timeouts
-	* monitor_resources.sh
+	* Edit the following file: monitor_resources.sh
 
 
-* Start
-./start.sh 
+* Start the program
+	* ./start.sh 
 
 * Repeat the same test multiple times (default: 3 repetitions)
-./start_with_rep.sh
+	* ./start_with_rep.sh
 
 
 Please note that the initial setup can require moderate skills in the UNIX environment. For further information, please, consult the documentation.
