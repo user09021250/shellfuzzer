@@ -1,0 +1,15 @@
+{
+        "<PROGRAM>": [["<STATEMENT>", " ; ", "<PROGRAM>"], ["<STATEMENT>", " ; "]],
+	"<STATEMENT>": [["<CMD>"], ["<FUNCTION>"], ["<IF>"], ["<LOOP>"]],
+	"<LOOP>": [["for ", "<ID>", " in ", "<ID>", " ;", " do ", "<CMD>", ";", " done"]],
+	"<FUNCTION>": [[ "function0", "() { ", "<CMD>" ," } ; function0 "]],
+	"<IF>": [["if ", "[ ", "<CONDITION>", " ]; ", "then ", "<CMD>", "; fi"]],
+	"<CMD>": [["<VAR_ASSIGN>"]],
+	"<VAR_ASSIGN>": [["<ID>", "=", "<NUMBER>"]],
+	"<CONDITION>": [[ "<NUMBER>", " -gt ", "<NUMBER>" ]],
+	"<NUMBER>": [["<DIGIT>"],["<DIGIT>", "<NUMBER>"]],
+	"<ID>": [["<ALPHA_CHAR>"],["<ALPHA_CHAR>", "<ID>" ]],
+	"<DIGIT>": [["0"], ["1"], ["2"], ["3"], ["4"], ["5"], ["6"], ["7"], ["8"], ["9"]],
+	"<ALPHA_CHAR>": [["a"],["b"], ["c"], ["d"], ["e"], ["f"], ["g"], ["h"], ["i"], ["j"], ["k"], ["l"], ["m"], ["n"], ["o"], ["p"], ["q"], ["r"], ["s"], ["t"], ["u"], ["v"], ["z"], ["x"], ["y"], ["w"], ["A"],["B"], ["C"], ["D"], ["E"], ["F"], ["G"], ["H"], ["I"], ["J"], ["K"], ["L"], ["M"], ["N"], ["O"], ["P"], ["Q"], ["R"], ["S"], ["T"], ["U"], ["V"], ["Z"], ["X"], ["Y"], ["W"]]
+}
+
